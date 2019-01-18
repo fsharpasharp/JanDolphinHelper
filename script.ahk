@@ -69,10 +69,11 @@ Host:
 	WinWaitActive, %hostTitle%
 	Sleep, 333
 	ControlClick, Button5, %hostTitle%,, Left, 1,  NA
-	if window
+	if window {
 		WinActivate, ahk_id %window%
 		WinWaitActive, ahk_id %window%
 		Sleep, 333
+	}
 	Send, ^v	
 return
 
