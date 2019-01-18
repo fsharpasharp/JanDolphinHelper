@@ -31,9 +31,9 @@ Menu, Tray, Tip, Jan's little helper
 FileSelectFile, dolphin
 settings:
 	Gui, Add, Text,, Join hotkey:
-    Gui, Add, Hotkey, vjoin, %join%
+    	Gui, Add, Hotkey, vjoin, %join%
 	Gui, Add, Text,, Host hotkey:
-    Gui, Add, Hotkey, vhost, %host%
+   	Gui, Add, Hotkey, vhost, %host%
 	Gui, Add, Text,, Exit hotkey:
 	Gui, Add, Hotkey, vexit, %exit%
 	Gui, Add, Button, default, OK
